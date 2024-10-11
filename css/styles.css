@@ -1,0 +1,150 @@
+*{
+    font-family: 'Times New Roman';
+}
+
+.header{
+    display: flex;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.header-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-logo img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding: 0px;
+}
+
+.nav{
+    background-color: darksalmon;
+    padding: 10px;
+    margin-top: 0px;
+}
+.nav-item{
+    display: inline-block;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-item a:hover{
+    color: pink;
+}
+
+.konten{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.konten h1{
+    color: crimson;
+    font-size: 35px;
+}
+
+.konten h2{
+    font-size: 22px;
+    color: darksalmon;
+}
+
+.tabel{
+    border-spacing:4px;
+}
+
+.tabel-header{
+    background-color: rgb(220, 69, 94);
+}
+
+.tabel-header th{
+padding: 20px;
+text-align: left;
+font-size: 20px;
+font-family: 'Times New Roman';
+}
+
+.tabel-konten{
+    background-color: azure;
+}
+
+.tabel-genap{
+    background-color: aliceblue;
+}
+.tabel-konten td{
+    padding: 50px;
+    font-size: 20px;
+}
+td>img{
+    width: 200px;
+}
+
+.tabel-konten:hover{
+    background-color:bisque;
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: indianred;
+}
+
+.form-group label{
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+
+.form-group input{
+    display: block;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.form-group textarea{
+display: block;
+margin-top: 10px;
+height: 500px;
+width: 60%;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgba(181, 0, 100, 0.857);
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: darksalmon;
+}
+
+.btn:active{
+    background-color: pink;
+}
